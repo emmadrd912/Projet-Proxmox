@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Projet (Proxmox)
 =======
 # Projet-Infra #
@@ -6,7 +6,7 @@ Projet (Proxmox)
 ### Sujet ###
 
 Créer un serveur de virutalisation (créer des VMs) avec une interface de monitring. Sur les VMs, il y aura un service web avec docker.
-Pour automatiser la création de VMs, on utilisera Cloud-init et Terraform. Et on pouura se connecter à distance avec un VPN.
+Pour automatiser la création de VMs, on utilisera Cloud-init et Terraform. Et on pourra se connecter à distance avec un VPN.
 
 ### Installation du projet ###
 
@@ -404,4 +404,3 @@ Pour automatiser la création de VMs, on utilisera Cloud-init et Terraform. Et o
   - Pour lancer le docker il faut se placer dans le répertoire où est situé le yml et executer : ``` docker-compose up -d ```. On peut vérifier avec la commande : ```docker ps -a ``` si nos containeurs se sont bien créent.
 
   - On peut ensuite se rendre sur l'adresse IP de notre machine et notre site apparaît. Pour kill le service web, il suffit d'executer la commande : ```docker-compose down ```.
->>>>>>> d4e1068 (add files to repo)
